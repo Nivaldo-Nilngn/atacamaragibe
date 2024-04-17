@@ -1,0 +1,35 @@
+/* variaveis globais e classes globais */
+:root {
+  --black-A3: #080808;
+  --black-A2: #202020;
+  --black-A1: #2F2F2F;
+  --black-B3: #3F3F3F;
+  --black-B2: #4B4B4B;
+  --black-B1: #606060;
+  --black-C3: #777777;
+  --black-C2: #959595;
+  --black-C1: #9F9F9F;
+  --black-D3: #B8B8B8;
+  --black-D2: #C0C0C0;
+  --black-D1: #CDCDCD;
+  --black-E3: #EDEDED;
+  --black-E2: #F5F5F5;
+  --black-E1: #FCFCFC;
+
+  --yellow-A3: #FFD600;
+  --yellow-A2: #F7D20F;
+  --yellow-A1: #F0CE1D;
+  --yellow-B3: #E8CA2A;
+  --yellow-B2: #E0C536;
+  --yellow-B1: #D9C041;
+  --yellow-C3: #EBD460;
+  --yellow-C2: #F5E072;
+  --yellow-C1: #FFE188;
+  --yellow-D3: #FFECB4;
+  --yellow-D2: #FFEEBB;
+  --yellow-D1: #FFF2CD;
+
+  --rubik: 'Rubik', 'Inter', sans-serif;
+  --inter: 'Inter', sans-serif;
+  --pop : 'Poppins', sans-serif;
+}

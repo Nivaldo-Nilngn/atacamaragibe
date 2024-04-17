@@ -1,0 +1,14 @@
+/* css de  */
+/* reset e global css */
+@import url('./assets/css/global/reset.css');
+@import url('./assets/css/global/global.css');
+@import url('./assets/css/global/header.css');
+@import url('./assets/css/global/footer.css');
+
+/* index principal */
+@import url('./assets/css/index/main.css');
+@import url('./assets/css/index/article.css');
+@import url('./assets/css/index/loader.css');
+
+/* sucesso */
+@import url('./assets/css/sucesso/main.css');

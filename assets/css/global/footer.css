@@ -1,0 +1,38 @@
+.termoUso {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black-A2);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.termoUso > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 30px;
+    color: #ffbf00;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btnTermos {
+  display: block;
+  color: var(--black-C1);
+}
+
+@media (max-width: 800px) {
+  .termoUso {
+    margin: 40px 0 0;
+  }
+
+  .termoUso > div {
+    display: block;
+    row-gap: 20px;
+    text-align: center;
+    justify-items: center;
+  }
+}

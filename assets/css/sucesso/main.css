@@ -1,0 +1,39 @@
+.containerSucesso {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  align-items: center;
+}
+
+.sucesso {
+  display: block;
+  padding: 2rem;
+  background: var(--black-A1);
+  /* herdar */
+  font-weight: 500;
+  color: var(--black-D1);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--rubik);
+  font-size: 2.5rem;
+  margin: auto;
+  border-radius: 4px;
+  max-width: 600px;
+  border: solid 1px var(--black-D1);
+}
+
+@media (max-width: 600px) {
+  .sucesso {
+    width: auto;
+    font-size: 1.8rem;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .sucesso {
+    margin: 20px auto;
+    width: auto;
+    font-size: 1.5rem;
+  }
+}

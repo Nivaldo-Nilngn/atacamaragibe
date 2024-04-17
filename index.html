@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Incentiva cursos, ata de atividade...">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="/assets/img/logoata.svg" type="image/x-icon" sizes="64x64">
+    
+    <link rel="stylesheet" href="/style.css">
+    <title>ATA CAMARAGIBE</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="mediaResponsivo">
+            <a href="/">
+                <img src="./assets/img/iconLogo.svg" alt="logo" width="30" height="30">
+                <p>Incentiva</p>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="mediaResponsivo1">
+            <section class="gridControl">
+                <form name="terça" class="formEntrada" onkeydown="if (event.keyCode == 13) return false;">
+                    <div class="containerInput">
+                        <div><label for="nomeInput">Nome</label></div>
+                        <input id="nomeInput" type="text" name="Nome" placeholder="Digite seu nome completo">
+                    </div>
+                    <div class="containerInput">
+                        <div><label for="codigoInput">Código</label></div>
+                        <input id="codigoInput" type="text" name="Usuario" placeholder="Digite seu código de acesso">
+                    </div>
+
+                    <span class="flexContainer">
+                        <div class="horario">
+                            <p>registre seu horário</p>
+                            <div id="horariosForm" name="horario">
+
+                                <div class="horaInput">
+                                    <label for="turma1">
+                                        <input type="radio" name="Turma" id="turma1" value="08H ÀS 10H">
+                                        <span>08H ÀS 10H</span>
+                                    </label>
+                                </div>
+
+                                <div class="horaInput">
+                                    <label for="turma2">
+                                        <input type="radio" name="Turma" id="turma2" value="10H ÀS 12H">
+                                        <span>10H ÀS 12H</span>
+                                    </label>
+                                </div>
+
+                                <div class="horaInput">
+                                    <label for="turma3">
+                                        <input type="radio" name="Turma" id="turma3" value="13H ÀS 15H">
+                                        <span>13H ÀS 15H</span>
+                                    </label>
+                                </div>
+
+                                <div class="horaInput">
+                                    <label for="turma4">
+                                        <input type="radio" name="Turma" id="turma4" value="15H ÀS 17H">
+                                        <span>15H ÀS 17H</span>
+                                    </label>
+                                </div>
+
+                                <div class="horaInput" id="Turma5">
+                                  
+                                </div>
+                                <div class="horaInput" id="ultimohorario">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <article>
+                            <div class="semana">
+                                <input name="Data" type="datetime-local" id="input-recife" readonly>
+                                <p name="Data" id="diaAtual" readonly></p>
+                                <p name="Data" id="horarioAtual" readonly></p>
+                            </div>
+
+                            <span class="reporAula">
+                                <p>Repondo aula?</p>
+                                <div class="repor">
+
+                                    <div class="reporRadio">
+                                        <label for="sim">
+                                            <input label="SIM" type="radio" id="sim" name="Reposição" value="SIM">
+                                            <span>SIM</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="reporRadio">
+                                        <label for="nao">
+                                            <input label="NAO" type="radio" id="nao" name="Reposição" value="NAO">
+                                            <span>NÃO</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="btnEnviar login">
+                                    <button type="submit" id="login-button" onclick="enviar()">enviar
+                                        <img src="./assets/img/vector.svg" alt="seta enviar" width="25" height="17">
+                                    </button>
+                                </div>
+                            </span>
+                        </article>
+                    </span>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- <footer class="termoUso">
+        <div>
+            <p>Todos os direitos reservados a Incentiva Cursos</p>
+            <a href="/assets/html/termos.html" class="btnTermos">Termos de uso</a>
+        </div>
+    </footer> -->
+
+    <script src="https://momentjs.com/downloads/moment.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/api.js"></script>
+</body>
+
+</html>

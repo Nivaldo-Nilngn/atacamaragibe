@@ -1,0 +1,30 @@
+/* reset css e pequenos ajustes */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--rubik);
+}
+
+a,
+img,
+li,
+ul,
+ol,
+body,
+div,
+span,
+h1,
+h2,
+main,
+article,
+section {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: var(--black-B3);
+}
