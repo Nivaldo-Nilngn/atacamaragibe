@@ -38,8 +38,8 @@ switch (diaAtual.toLowerCase()) {
 
 var dayOfWeek = new Date().getDay();
 if (dayOfWeek == 2) { // Se for terça-feira
-  var radio5 = document.getElementById("turma5");
-  var radio6 = document.getElementById("ultimoHorario");
+  var radio5 = document.getElementById("Turma5"); // Corrigido para "Turma5"
+  var radio6 = document.getElementById("ultimohorario"); // Corrigido para "ultimohorario"
   if (radio5) {
     radio5.innerHTML = `
       <label for="turma5">
